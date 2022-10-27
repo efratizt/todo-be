@@ -27,7 +27,7 @@ pipeline {
             steps {
                 echo "Push-stage"
                 sh 'docker login -u efrat2020 -p efrat2020'
-                sh 'docker push efrat2020/todo-fe:latest'
+                sh 'docker push efrat2020/todo-be:latest'
             }
         }
     }
